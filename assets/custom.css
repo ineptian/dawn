@@ -1,0 +1,62 @@
+/* CUSTOM STYLES FOR BUSY BEES CANDLE CO */
+:root {
+  --bb-beige: #E1DBCA;
+  --bb-black: #38333E;
+  --bb-primary: #89C9C4;
+}
+.block {
+  display: block;
+}
+.justify-center {
+  justify-content: center;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.color-bg-beige {
+  background-color: var(--bb-beige);
+}
+.color-bg-transparent {
+  background-color: transparent;
+}
+.grid-space-x-lg {
+  column-gap: 6rem;
+}
+.page-width-lg {
+  max-width: 120rem;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 1.6rem 6rem;
+  text-decoration: none;
+}
+.btn-black {
+  background: var(--bb-black);
+  color: var(--bb-primary);
+  transition: all .2s ease-out;
+}
+  .btn-black:hover {
+    filter: brightness(85%);
+  }
+.bee-headline {
+  display: flex;
+  align-items: center;
+}
+.bee-headline::before,
+.bee-headline::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-image: url('bee.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bee-headline::before {
+  margin-right: 1.6rem;
+}
+.bee-headline::after {
+  margin-left: 1.6rem;
+}

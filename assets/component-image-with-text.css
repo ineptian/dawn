@@ -328,3 +328,14 @@
     margin-left: 0;
   }
 }
+
+/* Custom */
+.image-with-text__media {
+  border: none;
+}
+.image-with-text__media img {
+  padding: 3.2rem;
+}
+.image-with-text-custom .btn {
+  margin-top: 4rem;
+}

@@ -29,11 +29,13 @@
   .menu-drawer-container {
     display: flex;
   }
-
+  .header__inline-menu {
+    text-align: center;
+  }
   .list-menu {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .list-menu--inline {
@@ -667,6 +669,10 @@
       "type": "select",
       "id": "color_scheme",
       "options": [
+        {
+          "value": "bg-beige",
+          "label": "Beige"
+        },
         {
           "value": "accent-1",
           "label": "t:sections.header.settings.color_scheme.options__1.label"

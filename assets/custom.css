@@ -27,7 +27,13 @@
 .page-width-lg {
   max-width: 120rem;
 }
-
+.button, .btn {
+  font-family: 'Berringer', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: all .2s ease-out;
+}
+.button:hover {
+  filter: brightness(85%);
+}
 .btn {
   display: inline-flex;
   padding: 1.6rem 6rem;
@@ -36,11 +42,19 @@
 .btn-black {
   background: var(--bb-black);
   color: var(--bb-primary);
-  transition: all .2s ease-out;
 }
   .btn-black:hover {
     filter: brightness(85%);
   }
+
+.bee-pattern-bg {
+  background-image: url('pattern2.png');
+  background-repeat: repeat;
+  background-size: 61px;
+  padding: 30px;
+  background-color:#89c9c4;
+  background-position: center center;
+}
 .bee-headline {
   display: flex;
   align-items: center;
@@ -61,8 +75,21 @@
 .bee-headline::after {
   margin-left: 1.6rem;
 }
-
+.bg-field::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: .08;
+  background-image: url('field-bg.jpg');
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
 .bsocial-icon-link svg {
   width: 30px;
   height: auto;
+}
+.header__menu-item {
+  font-family: 'Berringer', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
 }

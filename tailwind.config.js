@@ -15,7 +15,8 @@ module.exports = {
     extend: {
       colors: {
         'beige': '#E1DBCA',
-        'honey': '#C08F2C'
+        'honey': '#C08F2C',
+        'd-gray': '#38333E'
       },
       fontFamily: {
         'heading': '"Berringer", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;'

@@ -554,6 +554,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 4.0rem;
 }
 
+.btext-sm {
+  font-size: 1.4rem;
+  line-height: 2.0rem;
+}
+
 .btext-3xl {
   font-size: 3.0rem;
   line-height: 3.6rem;
@@ -563,14 +568,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
-.btext-beige {
-  --tw-text-opacity: 1;
-  color: rgb(225 219 202 / var(--tw-text-opacity));
-}
-
 .btext-honey {
   --tw-text-opacity: 1;
   color: rgb(192 143 44 / var(--tw-text-opacity));
+}
+
+.btext-beige {
+  --tw-text-opacity: 1;
+  color: rgb(225 219 202 / var(--tw-text-opacity));
 }
 
 @media (min-width: 990px) {

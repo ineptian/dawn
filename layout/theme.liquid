@@ -188,8 +188,10 @@
         }
       }
     {% endstyle %}
-
+    
+    {{ 'app.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-fonts.css' | asset_url | stylesheet_tag  }}
     {{ 'custom.css' | asset_url | stylesheet_tag  }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -220,7 +222,8 @@
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
-
+    
+    {% section 'footer-custom' %}
     {% section 'footer' %}
 
     <ul hidden>

@@ -56,24 +56,24 @@
         "padding_bottom": 36
       }
     },
-    "164280379756c0e9f1": {
-      "type": "image-with-text",
+    "1643931126eb024b8d": {
+      "type": "image-with-text-custom",
       "blocks": {
-        "16428037975c070009-0": {
+        "16439311261f834337-0": {
           "type": "heading",
           "settings": {
             "heading": "Why Beeswax?",
             "heading_size": "h1"
           }
         },
-        "16428037975c070009-1": {
+        "16439311261f834337-1": {
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
         },
-        "16428037975c070009-2": {
+        "16439311261f834337-2": {
           "type": "button",
           "settings": {
             "button_label": "Learn More",
@@ -82,9 +82,9 @@
         }
       },
       "block_order": [
-        "16428037975c070009-0",
-        "16428037975c070009-1",
-        "16428037975c070009-2"
+        "16439311261f834337-0",
+        "16439311261f834337-1",
+        "16439311261f834337-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/why-beeswax.jpg",
@@ -95,157 +95,122 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "accent-2",
-        "mobile_content_alignment": "center",
+        "border_pattern": true,
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "16439261847c03815d": {
+      "type": "candle-feature-grid",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
+        "1643926184ee370297-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/smokeless-icon.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column2": {
+        "1643926184ee370297-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/smokeless-icon.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column3": {
+        "1643926184ee370297-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/smokeless-icon.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "834318c2-82fd-4a24-b88a-d3fe5a150019": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smokeless-icon.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "1643926184ee370297-0",
+        "1643926184ee370297-1",
+        "1643926184ee370297-2",
+        "834318c2-82fd-4a24-b88a-d3fe5a150019"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Candle Features",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1643933529bee2400f": {
+      "type": "multicolumn",
+      "blocks": {
+        "1643933529202e0a7a-0": {
+          "type": "column",
+          "settings": {
+            "title": "Wholesale Info",
+            "text": "<p>\"The leather is sourced from environmentally friendly tanneries in Italy, France, and Turkey, where Rure is based and everything is assembled by hand.\"<\/p>",
+            "link_label": "Wholesale info",
+            "link": "#"
+          }
+        },
+        "1643933529202e0a7a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Contact Us",
+            "text": "<p>\"The leather is sourced from environmentally friendly tanneries in Italy, France, and Turkey, where Rure is based and everything is assembled by hand.\"<\/p>",
+            "link_label": "Contact us",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1643933529202e0a7a-0",
+        "1643933529202e0a7a-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "164280379756c0e9f1",
-    "rich_text",
-    "collage",
-    "video",
-    "multi_column"
+    "1643931126eb024b8d",
+    "16439261847c03815d",
+    "1643933529bee2400f"
   ]
 }

@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 749px) {
   .multicolumn-list {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
   }
 

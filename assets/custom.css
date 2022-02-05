@@ -1,4 +1,5 @@
 /* CUSTOM STYLES FOR BUSY BEES CANDLE CO */
+
 :root {
   --bb-beige: #E1DBCA;
   --bb-black: #38333E;
@@ -59,4 +60,9 @@
 }
 .bee-headline::after {
   margin-left: 1.6rem;
+}
+
+.bsocial-icon-link svg {
+  width: 30px;
+  height: auto;
 }

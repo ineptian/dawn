@@ -1,0 +1,33 @@
+/* CUSTOM Fonts FOR BUSY BEES CANDLE CO */
+/* lexend-deca-regular - latin */
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url('lexend-deca-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('lexend-deca-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('lexend-deca-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('lexend-deca-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('lexend-deca-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('lexend-deca-v15-latin-regular.svg#LexendDeca') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Berringer';
+  src: url('Berringer.woff2') format('woff2'),
+      url('Berringer.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body, 
+p {
+  font-family: 'Lexend Deca', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  font-family: 'Berringer', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

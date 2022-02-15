@@ -481,6 +481,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.75rem;
 }
 
+.bmb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.bmb-4 {
+  margin-bottom: 1rem;
+}
+
 .bflex {
   display: flex;
 }
@@ -576,6 +584,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 .btext-beige {
   --tw-text-opacity: 1;
   color: rgb(225 219 202 / var(--tw-text-opacity));
+}
+
+.btransition-colors {
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:btext-honey:hover {
+  --tw-text-opacity: 1;
+  color: rgb(192 143 44 / var(--tw-text-opacity));
 }
 
 @media (min-width: 990px) {

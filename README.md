@@ -60,7 +60,7 @@ git pull upstream main
 There are a number of really useful tools that the Shopify Themes team uses during development. Dawn is already set up to work with these tools.
 
 ### Tailwind CSS
-Build with `npx tailwindcss -i ./assets/app-tailwind.css -o ./assets/app.css --watch`
+Watch with `npx tailwindcss -i ./assets/app-tailwind.css -o ./assets/app.css --watch`
 
 ### Shopify CLI
 

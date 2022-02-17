@@ -1,9 +1,9 @@
 <footer class="bbg-black bpt-24 bpb-24">
   <div class="page-width">
-    <div class="bflex bflex-wrap lg:bflex-nowrap lg:bspace-x-4 bjustify-between">
-      <div class="bw-full lg:bw-8/12 bflex bflex-wrap bgap-x-32 bgap-y-24">
+    <!-- <div class="bflex bflex-wrap lg:bflex-nowrap bjustify-between bgap-x-32">
+      <div class="bw-full lg:bw-auto lg:bflex-grow bflex bflex-wrap bgap-x-32 bgap-y-24">
         {% if linklists.footer-col-1.links %}
-        <ul class="btext-beige">
+        <ul class="btext-beige bw-1/6">
           <li>
             <h3 class="btext-beige bmb-3 bfont-bold">{{ linklists.footer-col-1.title }}</h3>
           </li>
@@ -83,8 +83,198 @@
           </li>
         </ul>
       </div>
-      <div clas="bw-full lg:bw-4/12">
+      <div clas="bw-full lg:bw-auto">
         <img src="https://via.placeholder.com/236x236" alt="">
+      </div>
+    </div> -->
+    <!-- <div class="bflex bflex-wrap lg:bflex-nowrap bw-full bgap-x-6 bgap-y-24">
+      <div class="bw-1/2 lg:bw-1/6">
+        {% if linklists.footer-col-1.links %}
+        <ul class="btext-beige">
+          <li>
+            <h3 class="btext-beige bmb-3 bfont-bold">{{ linklists.footer-col-1.title }}</h3>
+          </li>
+          {% for link in linklists.footer-col-1.links %}
+          <li>
+            <a href="{{ link.url }}" class="btext-beige hover:btext-honey btransition-colors">{{ link.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      <div class="bw-1/2 lg:bw-1/6">
+        {% if linklists.footer-col-2.links %}
+        <ul>
+          <li>
+            <h3 class="btext-beige bmb-3 bfont-bold">{{ linklists.footer-col-2.title }}</h3>
+          </li>
+          {% for link in linklists.footer-col-2.links %}
+          <li>
+            <a href="{{ link.url }}" class="btext-beige hover:btext-honey btransition-colors">{{ link.title }}</a>
+          </li>
+          {%- endfor -%}
+        </ul>
+        {% endif %}
+      </div>
+      <div class="bw-1/2 lg:bw-1/6">
+        {% if linklists.footer-col-3.links %}
+        <ul>
+          <li>
+            <h3 class="btext-beige bmb-3 bfont-bold">{{ linklists.footer-col-3.title }}</h3>
+          </li>
+          {% for link in linklists.footer-col-3.links %}
+          <li>
+            <a href="{{ link.url }}" class="btext-beige hover:btext-honey btransition-colors">{{ link.title }}</a>
+          </li>
+          {%- endfor -%}
+        </ul>
+        {% endif %}
+      </div>
+      <div class="bw-1/2 lg:bw-1/6">
+        <ul class="btext-beige bspace-y-2">
+          <li>
+            <h3 class="btext-beige bmb-3 bfont-bold">Connect with us</h3>
+          </li>
+          <li class="">
+            <ul class="bflex bnowrap bgap-4 bmb-4">
+              <li>
+                <a href="{{ settings.social_facebook_link }}" class="bsocial-icon-link btext-beige bfill-current" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+              <li>
+                <a href="{{ settings.social_facebook_link }}" class="bsocial-icon-link btext-beige bfill-current" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+              <li>
+                <a href="{{ settings.social_facebook_link }}" class="bsocial-icon-link btext-beige bfill-current" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+              <li>
+                <a href="{{ settings.social_facebook_link }}" class="bsocial-icon-link btext-beige bfill-current" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {% if shop.phone %}
+          <li>
+            <a href="tel:{{ shop.phone }}">{{ shop.phone }}</a>
+          </li>
+          {% endif %}
+          <li>
+            <a href="#">
+              {{ shop.address.street }}<br/>
+              {{ shop.address.city }}, {{ shop.address.state }} {{ shop.address.zip }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bw-2/6 bjustify-self-end">
+        <img src="https://via.placeholder.com/236x236" alt="" class="bml-auto">
+      </div>
+    </div> -->
+    <div class="bgrid bgrid-cols-2 lg:bgrid-cols-6 bw-full bgap-x-20 bgap-y-24">
+      <div>
+        {% if linklists.footer-col-1.links %}
+        <ul class="bspace-y-3">
+          <li class="bleading-tight">
+            <h3 class="btext-beige bmb-3 bfont-bold">{{ linklists.footer-col-1.title }}</h3>
+          </li>
+          {% for link in linklists.footer-col-1.links %}
+          <li class="bleading-tight">
+            <a href="{{ link.url }}" class="btext-beige hover:btext-honey btransition-colors">{{ link.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      <div>
+        {% if linklists.footer-col-2.links %}
+        <ul class="bspace-y-3">
+          <li class="bleading-tight">
+            <h3 class="btext-beige bmb-3 bfont-bold">{{ linklists.footer-col-2.title }}</h3>
+          </li>
+          {% for link in linklists.footer-col-2.links %}
+          <li class="bleading-tight">
+            <a href="{{ link.url }}" class="btext-beige hover:btext-honey btransition-colors">{{ link.title }}</a>
+          </li>
+          {%- endfor -%}
+        </ul>
+        {% endif %}
+      </div>
+      <div>
+        {% if linklists.footer-col-3.links %}
+        <ul class="bspace-y-3">
+          <li>
+            <h3 class="btext-beige bmb-3 bfont-bold bleading-tight">{{ linklists.footer-col-3.title }}</h3>
+          </li>
+          {% for link in linklists.footer-col-3.links %}
+          <li class="bleading-tight">
+            <a href="{{ link.url }}" class="btext-beige hover:btext-honey btransition-colors">{{ link.title }}</a>
+          </li>
+          {%- endfor -%}
+        </ul>
+        {% endif %}
+      </div>
+      <div>
+        <ul class="bspace-y-3">
+          <li>
+            <h3 class="btext-beige bmb-3 bfont-bold bleading-tight">Connect with us</h3>
+          </li>
+          <li class="">
+            <ul class="bflex bnowrap bgap-4 bmb-6 bmt-6">
+              <li class="bleading-tight">
+                <a href="{{ settings.social_facebook_link }}" class="bsocial-icon-link btext-beige bfill-current" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+              <li>
+                <a href="{{ settings.social_facebook_link }}" class="bsocial-icon-link btext-beige bfill-current" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+              <li>
+                <a href="{{ settings.social_facebook_link }}" class="bsocial-icon-link btext-beige bfill-current" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+              <li>
+                <a href="{{ settings.social_facebook_link }}" class="bsocial-icon-link btext-beige bfill-current" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {% if shop.phone %}
+          <li class="bleading-tight">
+            <a href="tel:{{ shop.phone }}" class="btext-beige hover:btext-honey btransition-colors">{{ shop.phone }}</a>
+          </li>
+          {% endif %}
+          <li class="bleading-tight">
+            <a href="#" class="btext-beige hover:btext-honey btransition-colors">
+              {{ shop.address.street }}<br/>
+              {{ shop.address.city }}, {{ shop.address.state }} {{ shop.address.zip }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bcol-span-2">
+        <div class="btext-beige bfill-beige bw-[240px] bmt-16 lg:bmt-0 lg:bml-auto">
+          {% include 'busy-bee-logo' %}
+          <p class="bfont-heading btext-beige bmt-8 lg:bml-auto">© Busy Bees Candle Company</p>
+        </div>
+        
       </div>
     </div>
   </div>

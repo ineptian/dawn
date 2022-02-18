@@ -24,7 +24,7 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
+            <h2 class="{{ block.settings.heading_size }}{% if section.settings.bee_headline %} bee-headline bmx-auto bjustify-center{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
           {%- when 'text' -%}
             <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
           {%- when 'button' -%}
@@ -76,6 +76,12 @@
       "id": "full_width",
       "default": true,
       "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+     "type": "checkbox",
+     "id": "bee_headline",
+     "default": true,
+     "label": "Add Bees to Headline"
     },
     {
       "type": "header",

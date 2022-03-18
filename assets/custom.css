@@ -69,7 +69,7 @@ button,
   height: 25px;
   display: block;
   background-image: url('bee.svg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .bee-headline::before {

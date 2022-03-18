@@ -330,12 +330,12 @@
 }
 
 /* Custom */
-.image-with-text__media {
+.image-with-text-custom .image-with-text__media {
   border: none;
 }
-.image-with-text__media img {
+.image-with-text-custom .image-with-text__media img {
   padding: 3.2rem;
 }
-.image-with-text-custom .btn {
+.image-with-text-custom .image-with-text-custom .btn {
   margin-top: 4rem;
 }

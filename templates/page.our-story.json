@@ -60,14 +60,83 @@
       "settings": {
         "color_scheme": "accent-2",
         "full_width": true,
+        "bee_headline": true,
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "164764038545b3ecb2": {
+      "type": "image-with-text",
+      "blocks": {
+        "ca79e075-5b1b-4aa7-b13a-4d83f7adb3e2": {
+          "type": "heading",
+          "settings": {
+            "heading": "Create a buzz",
+            "heading_size": "h0"
+          }
+        },
+        "1647640385d875db91-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This very concept has become the foundation of Busy Bees Candle Company. All of our beeswax is locally sourced from ethically minded beekeepers. You see, with each purchase of one of our candles, you're helping to save the bees. You’re supporting the American beekeepers at the frontlines of the fight for honeybee survival by using all of their products. Together, we are making a difference!<\/p><p><\/p><p>Crafted from 100% pure, locally sourced beeswax, our candles provide longburning, smokeless illumination with a subtle, natural scent which evokes theearthy, yet sweet smell of honey. Beeswax is the purest and most natural of allwaxes. Unlike paraffin candles, Beeswax is hypo-allergenic, great for people with allergies or other sensitivities, and for those of us who want a clean burning candle in our home.<\/p><p>The world is full of toxins, but we don’t think they should be in our candles. That’s why we set out to create a clean burning candle using one simple ingredient, BEESWAX!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "ca79e075-5b1b-4aa7-b13a-4d83f7adb3e2",
+        "1647640385d875db91-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/candles-bees.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1647641137ee4cf90d": {
+      "type": "multicolumn",
+      "blocks": {
+        "164764113706d27358-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>By purchasing our Beeswax products you are helping the regrowth of bee colonies & joining us in our mission to “Save the Bees!”<\/strong><\/p>",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "164764113706d27358-0"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-2",
+        "padding_top": 100,
+        "padding_bottom": 68
       }
     }
   },
   "order": [
     "main",
     "1645141972ba07040d",
-    "164514205977aca69b"
+    "164514205977aca69b",
+    "164764038545b3ecb2",
+    "1647641137ee4cf90d"
   ]
 }

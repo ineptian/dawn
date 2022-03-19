@@ -472,6 +472,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 2 / span 2;
 }
 
+.bcol-span-4 {
+  grid-column: span 4 / span 4;
+}
+
+.bcol-span-8 {
+  grid-column: span 8 / span 8;
+}
+
+.bcol-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .bmx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -545,8 +557,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 65ch;
 }
 
+.bmax-w-screen-lg {
+  max-width: 990px;
+}
+
 .bgrid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.bgrid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.bgrid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.bgrid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .bflex-wrap {
@@ -571,6 +599,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bgap-16 {
   gap: 4rem;
+}
+
+.bgap-8 {
+  gap: 2rem;
 }
 
 .bgap-x-32 {
@@ -686,6 +718,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 990px) {
+  .lg\:bcol-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .lg\:bcol-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .lg\:bmt-0 {
     margin-top: 0px;
   }
@@ -712,6 +752,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:bgrid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:bgrid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:bflex-nowrap {

@@ -1,12 +1,12 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "main-page-wider",
       "settings": {
       }
     },
     "form": {
-      "type": "contact-form",
+      "type": "contact-form-two-column",
       "settings": {
         "heading": ""
       }

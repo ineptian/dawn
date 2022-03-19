@@ -7,9 +7,172 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1647642607b2b3ba3e": {
+      "type": "image-banner",
+      "blocks": {
+        "164764260782010037-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Beeswax",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "164764260782010037-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-test.jpg",
+        "image_2": "shopify:\/\/shop_images\/why-beeswax.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1647642948ab09d5cf": {
+      "type": "multicolumn",
+      "blocks": {
+        "1647642948bc16b78e-0": {
+          "type": "column",
+          "settings": {
+            "title": "A gift from nature",
+            "text": "<p>Created by bees, beeswax is 100% natural, non-toxic with no additives and has its own natural fragrance provided by Mother Nature! Unlike paraffin candles, beeswax candles are hypo-allergenic, great for people with allergies or other sensitivities, and for those of us that want a clean burning candle in our home.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1647642948bc16b78e-1": {
+          "type": "column",
+          "settings": {
+            "title": "luscious honey aroma",
+            "text": "<p>Our beeswax candles naturally give off a luscious honey aroma. Scent varies slightly based on honey, pollen and propolis present in the beeswax. Just like honey, Beeswax varies in<br\/>color<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1647642948bc16b78e-2": {
+          "type": "column",
+          "settings": {
+            "title": "Locally Sourced",
+            "text": "<p>By using locally sourced beeswax we are supporting our local beekeepers by ensuring they have a viable andsellable by-product from honey production. Beeswax is an all natural renewable resource and is the purest of all candle waxes.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647642948bc16b78e-0",
+        "1647642948bc16b78e-1",
+        "1647642948bc16b78e-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true,
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "16476433804cf2ba5e": {
+      "type": "image-with-text",
+      "blocks": {
+        "1647643380e369201b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "100% Beeswax",
+            "heading_size": "h1"
+          }
+        },
+        "1647643380e369201b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don’t be fooled by clever marketing, a candle only has to contain51% beeswax to be labeled a “beeswax candle”. All of our candles are made with 100% beeswax so you can be sureyou are getting the highest quality candles available and enjoy all the benefits that these wonderful, beautiful candlesprovide.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1647643380e369201b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "1647643380e369201b-0",
+        "1647643380e369201b-1",
+        "1647643380e369201b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/massimiliano-latella-6ufBhNungOk-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164764374620511cff": {
+      "type": "image-with-text",
+      "blocks": {
+        "164764374611ca56bd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is Bloom?",
+            "heading_size": "h1"
+          }
+        },
+        "164764374611ca56bd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Commonly noted by beekeepers, beeswax may over time become coated with a whitishmaterial, called wax bloom. The whitish bloom appears and continues to increase in amountover a period of years, producing a frosty appearance. Bloom on beeswax does no harm, itmeans that you have a truly 100% beeswax candle. On candles it may be removed by rubbingwith a soft cloth or by warming the surface. The exuding of bloom is slow and continuous; afterbloom has been removed it will appear again.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "164764374611ca56bd-0",
+        "164764374611ca56bd-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/anton-darius-thesollers-0FlRDYQYRqs-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1647642607b2b3ba3e",
+    "1647642948ab09d5cf",
+    "16476433804cf2ba5e",
+    "164764374620511cff"
   ]
 }

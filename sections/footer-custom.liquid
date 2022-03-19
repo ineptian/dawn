@@ -258,13 +258,13 @@
           </li>
           {% if shop.phone %}
           <li class="bleading-tight">
-            <a href="tel:{{ shop.phone }}" class="btext-beige hover:btext-honey btransition-colors">{{ shop.phone }}</a>
+            <a href="tel:{{ shop.phone | remove: "(" | remove: ")" | replace: " ", "-" }}" class="btext-beige hover:btext-honey btransition-colors">{{ shop.phone }}</a>
           </li>
           {% endif %}
           <li class="bleading-tight">
             <a href="#" class="btext-beige hover:btext-honey btransition-colors">
               {{ shop.address.street }}<br/>
-              {{ shop.address.city }}, {{ shop.address.state }} {{ shop.address.zip }}
+              {{ shop.address.city }}, {{ shop.address.province_code }} {{ shop.address.zip }}
             </a>
           </li>
         </ul>

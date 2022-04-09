@@ -7,6 +7,11 @@ module.exports = {
     './sections/*.liquid',
     './snippets/*.liquid',
   ],
+  safelist: [
+    'bspace-y-6',
+    'blist-disc',
+    'bmt-12'
+  ],
   theme: {
     screens: {
       'md': '750px',

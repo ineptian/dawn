@@ -4,76 +4,12 @@
       "type": "main-page",
       "settings": {
         "show_page_header": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "1645137267a2aa3a5b": {
-      "type": "image-banner",
-      "blocks": {
-        "164513726770d5e5e3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Us",
-            "heading_size": "large"
-          }
-        },
-        "164513726770d5e5e3-1": {
-          "type": "text",
-          "settings": {
-            "text": "By purchasing our Beeswax products you are helping the regrowth of bee colonies & joining us in our mission to “Save the Bees!”",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "164513726770d5e5e3-0",
-        "164513726770d5e5e3-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/hero-test.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "1645138770f6b22c0c": {
-      "type": "grid-two-col",
-      "blocks": {
-        "dbaa04a0-f461-4a95-97cd-9600d0f628b0": {
-          "type": "heading",
-          "settings": {
-            "heading": "HONEY BEES ARE DISAPPEARING AT ALARMING RATES!!",
-            "heading_size": "h2"
-          }
-        },
-        "10d00476-5a3d-48fb-834b-75400ec3cded": {
-          "type": "text",
-          "settings": {
-            "text": "<p>As small commercial beekeepers, Jan & Kim Christianson, know first hand the perils of the bees. Honeybees are disappearing at alarming rates, beekeepers around the world are beside themselves with worry and concern about their plight. If we lose these pollinators completely, there will be devastating consequences for humanity & the environment. Beekeepers know the only way to save the bees is to create a big BUZZ about what’s happening and to find creative ways to get people to care.<\/p><p>This very concept has become the foundation of Busy Bees Candle Company. All<br\/>of our beeswax is locally sourced from ethically minded beekeepers. You see,<br\/>with each purchase of one of our candles, you're helping to save the bees. You’re<br\/>supporting the American beekeepers at the frontlines of the fight for honeybee<br\/>survival by using all of their products. Together, we are making a difference!<\/p><p>Crafted from 100% pure, locally sourced beeswax, our candles provide long<br\/>burning, smokeless illumination with a subtle, natural scent which evokes the<br\/>earthy, yet sweet smell of honey. Beeswax is the purest and most natural of all<br\/>waxes. Unlike paraffin candles, Beeswax is hypo-allergenic, great for people with<br\/>allergies or other sensitivities, and for those of us who want a clean burning<br\/>candle in our home. The world is full of toxins, but we don’t think they should be<br\/>in our candles. That’s why we set out to create a clean burning candle using one<br\/>simple ingredient, BEESWAX!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "dbaa04a0-f461-4a95-97cd-9600d0f628b0",
-        "10d00476-5a3d-48fb-834b-75400ec3cded"
-      ],
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
-    "main",
-    "1645137267a2aa3a5b",
-    "1645138770f6b22c0c"
+    "main"
   ]
 }

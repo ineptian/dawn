@@ -46,11 +46,13 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root {
-        --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+        // --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+        --font-body-family: Lexend Deca,Frutiger,Frutiger Linotype,Univers,Calibri,Gill Sans,Gill Sans MT,Myriad Pro,Myriad,DejaVu Sans Condensed,Liberation Sans,Nimbus Sans L,Tahoma,Geneva,Helvetica Neue,Helvetica,Arial,sans-serif;
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
 
-        --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        //--font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        --font-heading-family: Berringer,Frutiger,Frutiger Linotype,Univers,Calibri,Gill Sans,Gill Sans MT,Myriad Pro,Myriad,DejaVu Sans Condensed,Liberation Sans,Nimbus Sans L,Tahoma,Geneva,Helvetica Neue,Helvetica,Arial,sans-serif;
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
 

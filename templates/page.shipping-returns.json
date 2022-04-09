@@ -1,15 +1,44 @@
 {
   "sections": {
+    "164773054847acfbc3": {
+      "type": "image-banner",
+      "blocks": {
+        "1647730547e2eaa9da-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "1647730547e2eaa9da-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/field.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
         "show_page_header": false,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
+    "164773054847acfbc3",
     "main"
   ]
 }
